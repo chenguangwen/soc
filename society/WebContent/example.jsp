@@ -38,32 +38,8 @@
        <%@include file="left.jsp"%>
      
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-
-<h1 class="page-header">资料图形化展示</h1>
-
-				<div class="row placeholders">
-
-					<legend>柱状图趋势</legend>
-					<canvas id="bar" height="400" width="821"></canvas>
-					<script>
-						var barChartData = {
-							labels : [ "珠海", "省均", "广州", "深圳", "东莞", "佛山",
-									"中山", "江门", "惠州", "肇庆" ],
-							datasets : [ {
-								fillColor : "rgba(151,187,205,0.5)",
-								strokeColor : "rgba(151,187,205,1)",
-								data : [ 28, 48, 40, 19, 96, 27, 100, 34, 76,
-										65 ]
-							} ]
-						};
-
-						var ctx = document.getElementById("bar").getContext(
-								"2d");
-						var myNewChart = new Chart(ctx).Bar(barChartData);
-						//new Chart(document.getElementById("bar").getContext("2d")).Bar(barChartData);
-					</script>
-
-				</div>
+        
+          <h1 class="page-header">资料名称</h1>
 
  </div>
   </body>

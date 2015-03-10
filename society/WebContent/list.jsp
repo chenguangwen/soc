@@ -1,90 +1,85 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>历年资料</title>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <!-- <link rel="icon" href="http://v3.bootcss.com/favicon.ico">-->
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
+    <title>珠海市发展和改革局</title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min1.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
 
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link href="css/dashboard.css" rel="stylesheet">
-<link href="css/bootstrap.min1.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Dashboard Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>
 
-</head>
-<body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-					aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span> <span
-						class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">珠海市发展和改革局</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">官网连接</a></li>
-					<li><a href="#">帮助</a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-				</ul>
-				<form class="navbar-form navbar-right">
-					<input type="text" class="form-control" placeholder="Search...">
-				</form>
-			</div>
-		</div>
-	</nav>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-3 col-md-2 sidebar">
-				<ul class="nav nav-sidebar">
-					<li class="active"><a href="list.jsp">历年资料 <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">资料查询</a></li>
-					<li><a href="#">资料下载</a></li>
-					<li><a href="#">联系方式</a></li>
-			</div>
-			<div class="col-md-10 ">
-				<h1 class="page-header">资料名称</h1>
+  <body>
 
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<strong>注意</strong> 以下资料按照年份排列
-				</div>
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="planOne.html"><strong>2013年（方案一）</strong>珠海市建设全面小康社会统计监测指标对比表（按39项指标）</a>
-				</div>
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="planTwo.html"><strong>2013年（方案二）</strong>珠海市建设全面小康社会统计监测指标对比表（按39项指标）</a>
-				</div>
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="show.jsp"><strong>2013-2017年汇总表---</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-				</div>
+    <%@include file="top.jsp"%>
 
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="show-2017.jsp"><strong>2017年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-				</div>
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="show-2016.jsp"><strong>2016年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-				</div>
+    <div class="container-fluid">
+      <div class="row">
+       <%@include file="left.jsp"%>
+     
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        
+          <h1 class="page-header">资料名称</h1>
 
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="show-2015.jsp"><strong>2015年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-				</div>
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="show-2014.jsp"><strong>2014年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-				</div>
+         <div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>注意</strong> 以下资料按照年份排列
+</div>
 
-				<div class="alert alert-warning alert-dismissible" role="alert">
-					<a href="show-2013.jsp"><strong>2013年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-				</div>
-			</div>
-</body>
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show.jsp"><strong>2013-2017年汇总表---</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2017.jsp"><strong>2017年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2016.jsp"><strong>2016年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2015.jsp"><strong>2015年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2014.jsp"><strong>2014年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2013.jsp"><strong>2013年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+
+
+ </div>
+
+
+
+
+  </body>
 </html>
