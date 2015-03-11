@@ -16,7 +16,7 @@
     <link href="css/bootstrap.min1.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
-
+  <link href="css/buttons.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./Dashboard Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>

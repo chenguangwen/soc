@@ -43,7 +43,7 @@
  <%@include file="pictureBar.jsp"%>
 				<div class="row placeholders">
 
-					<legend>柱状图趋势</legend>
+					<legend>极地图趋势</legend>
 					<canvas id="bar" height="400" width="821"></canvas>
 					<script>
 					var data = [
