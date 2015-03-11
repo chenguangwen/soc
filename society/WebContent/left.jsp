@@ -5,7 +5,8 @@
           <ul class="nav nav-sidebar">
             <li class="active"><a href="list.jsp">历年资料 <span class="sr-only">(current)</span></a></li>
             <li><a href="#">资料查询</a></li>
-            <li><a href="#">资料下载</a></li>
+            <li><a href="down.jsp">资料下载</a></li>
+          
 			</ul>
 			 
          

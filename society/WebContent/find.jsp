@@ -17,7 +17,7 @@
     <link href="css/bootstrap.min1.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
-    <link href="css/buttons.css" rel="stylesheet">
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./Dashboard Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>
@@ -38,42 +38,11 @@
        <%@include file="left.jsp"%>
      
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-
-<h1 class="page-header">资料图形化展示</h1>
- <%@include file="pictureBar.jsp"%>
-				<div class="row placeholders">
-
-					<legend>雷达图趋势</legend>
-					<canvas id="bar" height="400" width="821"></canvas>
-					<script>
-					var data = {
-							labels : ["Eating","Drinking","Sleeping","Designing","Coding","Partying","Running"],
-							datasets : [
-								{
-									fillColor : "rgba(220,220,220,0.5)",
-									strokeColor : "rgba(220,220,220,1)",
-									pointColor : "rgba(220,220,220,1)",
-									pointStrokeColor : "#fff",
-									data : [65,59,90,81,56,55,40]
-								},
-								{
-									fillColor : "rgba(151,187,205,0.5)",
-									strokeColor : "rgba(151,187,205,1)",
-									pointColor : "rgba(151,187,205,1)",
-									pointStrokeColor : "#fff",
-									data : [28,48,40,19,96,27,100]
-								}
-							]
-						};
-
-						var ctx = document.getElementById("bar").getContext(
-								"2d");
-						var myNewChart = new Chart(ctx).Radar(data);
-						//new Chart(document.getElementById("bar").getContext("2d")).Bar(barChartData);
-					</script>
-
-				</div>
-
+        
+          <h1 class="page-header">资料查询</h1>
+ 
+       </div>
+     </div>
  </div>
   </body>
 </html>
