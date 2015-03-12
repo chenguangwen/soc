@@ -15,7 +15,28 @@ public class Index {
 	}
 
 	public String getName() {
-		return name;
+		String str = new String();
+		switch (id) {
+		case 40:
+			str ="一、";
+			break;
+		case 41:
+			str = "二、";
+			break;
+		case 42:
+			str = "三、";
+			break;
+		case 43:
+			str = "四、";
+			break;
+		case 44:
+			str = "五";
+			break;
+		}
+		if(id > 39) {
+			return str + name;
+		}
+		return id + "." +name;
 	}
 
 	public void setName(String name) {

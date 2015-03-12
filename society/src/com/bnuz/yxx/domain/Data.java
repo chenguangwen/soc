@@ -1,18 +1,18 @@
 package com.bnuz.yxx.domain;
 
 public class Data {
-	private Index id;
+	private Index index;
 	private int year;
 	private int scheme;
 	private double completeValue;
 	private double degreeOfCompletion;
 
-	public Index getId() {
-		return id;
+	public Index getIndex() {
+		return index;
 	}
 
-	public void setId(Index id) {
-		this.id = id;
+	public void setIndex(Index index) {
+		this.index = index;
 	}
 
 	public int getYear() {
@@ -51,10 +51,10 @@ public class Data {
 		super();
 	}
 
-	public Data(Index id, int year, int scheme, double completeValue,
+	public Data(Index index, int year, int scheme, double completeValue,
 			double degreeOfCompletion) {
 		super();
-		this.id = id;
+		this.index = index;
 		this.year = year;
 		this.scheme = scheme;
 		this.completeValue = completeValue;
@@ -63,7 +63,7 @@ public class Data {
 
 	@Override
 	public String toString() {
-		return "Data [id=" + id + ", year=" + year + ", scheme=" + scheme
+		return "Data [id=" + index + ", year=" + year + ", scheme=" + scheme
 				+ ", completeValue=" + completeValue + ", degreeOfCompletion="
 				+ degreeOfCompletion + "]";
 	}
