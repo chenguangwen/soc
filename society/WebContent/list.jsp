@@ -47,32 +47,29 @@
 
 <div class="alert alert-warning alert-dismissible" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <a href="show.jsp"><strong>2013-2017年汇总表---</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-</div>
-
-<div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <a href="show-2017.jsp"><strong>2017年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-</div>
-<div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <a href="show-2016.jsp"><strong>2016年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-</div>
-
-<div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <a href="show-2015.jsp"><strong>2015年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
-</div>
-
-<div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <a href="show-2014.jsp"><strong>2014年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+  <a href="show.jsp"><strong>2010-2013年汇总表---</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
 </div>
 
 <div class="alert alert-warning alert-dismissible" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
   <a href="show-2013.jsp"><strong>2013年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
 </div>
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2012.jsp"><strong>2012年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2011.jsp"><strong>2011年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <a href="show-2010.jsp"><strong>2010年</strong>珠海市建设全面小康社会统计监测指标体系表（按39项指标）</a>
+</div>
+
+
 
 
 
