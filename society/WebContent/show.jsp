@@ -57,11 +57,10 @@
 											<th>单位</th>
 											<th>权重</th>
 											<th>目标值</th>
-											<th>2013年实现</th>
-											<th>2014年</th>
-											<th>2015年</th>
-											<th>2016年</th>
-											<th>2017年</th>
+											<th>2010年实现</th>
+											<th>2011年</th>
+											<th>2012年</th>
+											<th>2013年</th>
 											<th>年均增长百分比（百分点千分点）</th>
 											<th>备注</th>
 											<th>程度</th>
@@ -81,7 +80,6 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
 										</tr>
 										<tr class="success">
 											<td>1.人均GDP</td>
@@ -89,7 +87,7 @@
 											<td>01/04/2012</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -107,7 +105,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -121,7 +119,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -136,7 +134,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -151,7 +149,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -163,7 +161,7 @@
 											<td>TB - Monthly</td>
 											<td>01/04/2012</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -181,7 +179,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -195,7 +193,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -208,7 +206,7 @@
 											<td>TB - Monthly</td>
 											<td>01/04/2012</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -227,7 +225,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -243,7 +241,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -259,7 +257,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 										</tr>
@@ -272,7 +270,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -287,7 +285,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -301,7 +299,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -316,7 +314,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -331,7 +329,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -348,7 +346,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -362,7 +360,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -377,7 +375,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -392,7 +390,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -408,7 +406,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -422,7 +420,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -435,7 +433,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -454,7 +452,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 										</tr>
@@ -467,7 +465,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -479,7 +477,7 @@
 											<td>01/04/2012</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -498,7 +496,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -512,7 +510,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -525,7 +523,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -538,7 +536,7 @@
 											<td>TB - Monthly</td>
 											<td>01/04/2012</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -556,7 +554,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -573,7 +571,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -589,7 +587,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 										</tr>
@@ -600,7 +598,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -614,7 +612,7 @@
 											<td>01/04/2012</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -629,7 +627,7 @@
 											<td>01/04/2012</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -647,7 +645,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -662,7 +660,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -676,7 +674,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -689,7 +687,7 @@
 											<td>01/04/2012</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -706,7 +704,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -723,7 +721,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+										
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
@@ -738,7 +736,7 @@
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
-											<td>Default</td>
+											
 											<td>Default</td>
 											<td>Default</td>
 											<td>Default</td>
