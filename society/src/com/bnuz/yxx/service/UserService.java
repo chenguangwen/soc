@@ -34,20 +34,7 @@ public class UserService {
 		}
 		return user;
 	}
-	
-	/*
-	 * 根据当前页查询用户列表
-	 */
 
-	public List<User> find(int currentPage) {
-		List<User> list = null;
-		try {
-			list = userDao.find(currentPage);
-		} catch (SQLException e) {
-			throw new RuntimeException(e);
-		}
-		return list;
-	}
 
 	/*
 	 * 查询有多少用户

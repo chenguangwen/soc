@@ -1,6 +1,5 @@
 package com.bnuz.yxx.domain;
 
-import java.util.Date;
 
 public class User {
 	private int id;
