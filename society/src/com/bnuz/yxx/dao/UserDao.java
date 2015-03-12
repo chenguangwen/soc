@@ -10,7 +10,6 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 import org.junit.Test;
 
 import com.bnuz.yxx.commons.TxQueryRunner;
-import com.bnuz.yxx.domain.Page;
 import com.bnuz.yxx.domain.User;
 
 public class UserDao {
@@ -58,16 +57,7 @@ public class UserDao {
 		return number.intValue();
 	}
 
-	/*
-	 * 根据当前页查找用户并返回一个包含User的List
-	 */
-	public List<User> find(int page) throws SQLException {
-		String sql = "select * from user order by id asc limit ?,?";
-		int currentPage = (page - 1) * Page.PAGE_SIZE;
-		Object[] params = { currentPage, Page.PAGE_SIZE };
-		return qr.query(sql, new BeanListHandler<User>(User.class), params);
-	}
-
+	
 	/*
 	 * 根据姓名和出生日期查找用户并返回一个包含User的List
 	 */

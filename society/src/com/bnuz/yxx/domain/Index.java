@@ -5,7 +5,6 @@ public class Index {
 	private String name;
 	private double weight;
 	private String unit;
-
 	public int getId() {
 		return id;
 	}
