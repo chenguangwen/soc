@@ -6,15 +6,15 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-
+<!-- <link rel="icon" href="http://v3.bootcss.com/favicon.ico">-->
 
 <title>珠海市发展和改革局</title>
 <script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/headroom.js"></script>
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap.min1.css" rel="stylesheet">
@@ -61,23 +61,21 @@
 									</thead>
 									<tbody>
 										<%
-											String[] colors = { "warning", "info", "success", "error" };
-											DataService ds = new DataService();
-											List<Data> dList = ds.selectTableByYearScheme(2010, 1);
-											for (int i = 0; i < 44; i++) {
-												Data data = dList.get(i);
-												Index index = data.getIndex();
-										%>
-										<tr class="<%=colors[i % 4]%>">
-											<td><%=index.getName()%></td>
-											<td><%=index.getUnit()%></td>
-											<td><%=index.getWeight()%></td>
-											<td><%=data.getCompleteValue()%></td>
-											<td><%=data.getDegreeOfCompletion()%></td>
+										String[] colors = { "warning", "info", "success", "error" };
+										DataService ds = new DataService();
+										List<Data> dList = ds.selectTableByYearScheme(2010, 1);
+										for(int i = 0; i < 44; i++ ) {
+											Data data = dList.get(i);
+											Index index = data.getIndex();
+									%>
+										<tr class="<%=colors[i % 4] %>">
+											<td><%=index.getName() %></td>
+											<td><%=index.getUnit() %></td>
+											<td><%=index.getWeight() %></td>
+											<td><%=data.getCompleteValue() %></td>
+											<td><%=data.getDegreeOfCompletion() %></td>
 										</tr>
-										<%
-											}
-										%>
+									<%} %>
 									</tbody>
 								</table>
 							</div>
@@ -85,7 +83,5 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 </body>
 </html>
